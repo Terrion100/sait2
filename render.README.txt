@@ -1,0 +1,7 @@
+
+Deploy notes for Render:
+- Use Python 3 environment.
+- Build command: pip install -r requirements.txt
+- Start command: gunicorn recipes_project.wsgi
+- Set environment variables if you change SECRET_KEY or DEBUG.
+- For media (uploaded images) use external storage (S3 or Cloudinary). Render's ephemeral filesystem is not suitable for persistent media.

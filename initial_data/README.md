@@ -1,0 +1,1 @@
+Place sample images into media/recipes/ after migrating and creating superuser.
